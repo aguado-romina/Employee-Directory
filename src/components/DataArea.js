@@ -92,19 +92,16 @@ const DataArea = () => {
   };
 
   ///https://stackoverflow.com/questions/53120972/how-to-call-loading-function-with-react-useeffect-only-once
-  useEffect(
-    () => {
-      API.getUsers().then((results) => {
-        console.log(results.data.results);
-        setDeveloperState({
-          ...developerState,
-          users: results.data.results,
-          filteredUsers: results.data.results,
-        });
+  useEffect(() => {
+    API.getUsers().then((results) => {
+      console.log(results.data.results);
+      setDeveloperState({
+        ...developerState,
+        users: results.data.results,
+        filteredUsers: results.data.results,
       });
-    }
-    //   []
-  );
+    });
+  }, []);
 
   return (
     <DataAreaContext.Provider

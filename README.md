@@ -8,21 +8,30 @@ As a user, I want to be able to view my entire employee directory at once so tha
 
 ## Deployed Link
 
+https://polar-wildwood-11159.herokuapp.com/
+
 ## Images
 
 ![](/public/)
 
 ## Installation
 
-npm init to get all the required node modules
-npm axios
+npx create-react-app appname
+
+npm axios:
+Axios is a library that helps us make http requests to external resources. In our React applications we often need to retrieve data from external APIs so it can be displayed in our web pages. Axios uses methods like get() and post() that perform http GET and POST requests for retrieving or creating resources.
+https://dev.to/cesareferrari/working-with-axios-in-react-540c
+https://www.npmjs.com/package/axios#features
+
 When running the code locally the local host is set to port 3000
-Will need to go in to the config folder and possibly change the config.json values
+
 To start the app use npm start
 
 ## Languages
 
 React.js
+Axios
+React-Boostrap
 Heroku
 
 ## Contribute
@@ -36,6 +45,11 @@ How to reproduce the issue, step-by-step. The expected behavior (or what is wron
 Pull Requests: Pull Requests are always welcome.
 
 When you edit the code, please run npm run test to check the formatting of your code before you git commit. Ensure the PR description clearly describes the problem and solution. It should include: The operating system on which you tested. The relevant issue number, if applicable.
+
+## Mentions
+
+Used this repo for guidance:
+https://github.com/iarcones/react-employee-directory
 
 ## License
 
