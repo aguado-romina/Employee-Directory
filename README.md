@@ -12,7 +12,7 @@ https://polar-wildwood-11159.herokuapp.com/
 
 ## Images
 
-![](/public/)
+![](./public/EmployeeDirectory.png)
 
 ## Installation
 
